@@ -13,8 +13,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Jaan Entertainments | Home of Fun & Excellence",
-  description: "Experience premium entertainment in Vijayawada and Eluru with Jaan Entertainments. E3, E4, and Rajiv Gandhi Park.",
+  title: "Jaan Entertainment | Home of Fun & Excellence",
+  description: "Experience premium entertainment in Vijayawada and Eluru with Jaan Entertainment. E3, E4, and Rajiv Gandhi Park.",
 };
 
 import { PageTransition } from "@/components/PageTransition";

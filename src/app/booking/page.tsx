@@ -20,7 +20,7 @@ export default function BookingPage() {
   const handleWhatsAppBooking = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, phone, location, date } = formData;
-    const message = `Hello Jaan Entertainments! I would like to book a visit.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Location:* ${location}%0A*Date:* ${date}`;
+    const message = `Hello Jaan Entertainment! I would like to book a visit.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Location:* ${location}%0A*Date:* ${date}`;
     const whatsappUrl = `https://wa.me/919876543210?text=${message}`;
     window.open(whatsappUrl, "_blank");
   };

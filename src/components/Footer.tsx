@@ -74,7 +74,7 @@ export const Footer = () => {
         </div>
         
         <div className="mt-16 border-t border-white/5 pt-8 text-center text-xs text-white/30">
-          © {new Date().getFullYear()} Jaan Entertainments. All rights reserved.
+          © {new Date().getFullYear()} Jaan Entertainment. All rights reserved.
         </div>
       </div>
     </footer>

@@ -41,12 +41,12 @@ export const GlassNavbar = () => {
               src="/jaan logo.jpeg" 
               alt="Jaan Logo" 
               fill 
-              className="object-contain brightness-110" 
+              className="object-cover brightness-110" 
               priority
             />
           </div>
           <span className="text-sm md:text-lg font-bold tracking-[0.2em] text-white font-outfit uppercase">
-            Jaan <span className="text-accent-gold">Entertainments</span>
+            Jaan <span className="text-accent-gold">Entertainment</span>
           </span>
         </Link>
 
@@ -61,9 +61,11 @@ export const GlassNavbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button variant="gold" className="px-7 py-2.5 text-[10px]">
-            Inquire
-          </Button>
+          <Link href="/contact">
+            <Button variant="gold" className="px-7 py-2.5 text-[10px]">
+              Inquire
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -89,9 +91,11 @@ export const GlassNavbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Button variant="primary" className="w-full">
-              Contact Us
-            </Button>
+            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button variant="primary" className="w-full">
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </div>
       )}

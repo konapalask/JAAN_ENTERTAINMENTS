@@ -39,8 +39,8 @@ export default function Home() {
             <div className="absolute -inset-4 rounded-3xl bg-accent-green/20 blur-2xl transition-all duration-500 group-hover:bg-accent-green/30" />
             <div className="relative aspect-video overflow-hidden rounded-3xl border border-white/10 glass">
               <Image 
-                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000" 
-                alt="Experience" 
+                src="/gallery/ethree/ethree_9.webp" 
+                alt="ETHREE — Eat Enjoy Entertain" 
                 fill 
                 className="object-cover"
               />
@@ -51,7 +51,7 @@ export default function Home() {
             <h2 className="font-outfit text-5xl font-bold leading-tight tracking-tighter">Immersive Gaming <br /> <span className="text-accent-gold text-glow-gold">Elevated.</span></h2>
             <p className="text-lg text-white/30 font-light leading-relaxed">
               We bring the future of play to Vijayawada and Eluru. From elite VR stations 
-              to physical thrill zones, every corner at Jaan Entertainments is designed 
+              to physical thrill zones, every corner at Jaan Entertainment is designed 
               to redefine your leisure.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -137,7 +137,7 @@ export default function Home() {
             </GlassCard>
             <GlassCard className="flex flex-col gap-8 border-accent-gold/20 bg-accent-gold/[0.01]">
               <div className="flex text-accent-gold text-glow-gold">{"★".repeat(5)}</div>
-              <p className="italic text-white/60 leading-relaxed font-light text-sm">"Jaan Entertainments has set a new benchmark for family entertainment. Highly recommended for kids and adults alike."</p>
+              <p className="italic text-white/60 leading-relaxed font-light text-sm">"Jaan Entertainment has set a new benchmark for family entertainment. Highly recommended for kids and adults alike."</p>
               <div className="mt-auto flex items-center gap-4">
                 <div className="h-14 w-14 rounded-full bg-accent-gold/10 border border-accent-gold/30 shadow-[0_0_20px_rgba(197,160,89,0.3)]" />
                 <div>

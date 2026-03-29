@@ -17,7 +17,7 @@ export default function LocationsPage() {
         >
           <p className="mx-auto mt-6 max-w-2xl text-center text-[10px] font-bold uppercase tracking-[0.3em] text-white/20">
             From futuristic indoor arenas to reimagining the horizon, <br />
-            discover the zenith of Jaan Entertainments.
+            discover the zenith of Jaan Entertainment.
           </p>
         </Section>
       </div>
