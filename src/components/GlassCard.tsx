@@ -5,15 +5,18 @@ interface GlassCardProps {
   children: React.ReactNode;
   className?: string;
   hoverEffect?: boolean;
+  onClick?: () => void;
 }
 
 export const GlassCard = ({
   children,
   className,
   hoverEffect = true,
+  onClick,
 }: GlassCardProps) => {
   return (
     <div
+      onClick={onClick}
       className={cn(
         "glass-card p-8 relative overflow-hidden group/card",
         hoverEffect && "hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,255,136,0.1)]",
@@ -25,3 +28,4 @@ export const GlassCard = ({
     </div>
   );
 };
+
