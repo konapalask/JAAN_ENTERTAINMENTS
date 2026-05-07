@@ -8,7 +8,7 @@ import { LOCATIONS } from "@/constants/locations";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CheckCircle2, IndianRupee, MapPin, ExternalLink } from "lucide-react";
+import { CheckCircle2, IndianRupee, MapPin, ExternalLink, Navigation } from "lucide-react";
 import { motion } from "framer-motion";
 import { use } from "react";
 
@@ -87,7 +87,7 @@ export default function LocationDetailPage({
                 {hasBookingUrl && (
                   <a href={location.bookingUrl} target="_blank" rel="noopener noreferrer">
                     <span className="flex items-center gap-2 glass px-5 py-2.5 rounded-full text-[10px] font-bold uppercase tracking-widest border-accent-emerald/30 text-accent-emerald cursor-pointer hover:bg-accent-emerald/10 transition-colors">
-                      <ExternalLink size={11} /> Book Online
+                      <Navigation size={11} /> Get Directions
                     </span>
                   </a>
                 )}
@@ -184,7 +184,7 @@ export default function LocationDetailPage({
                   {hasBookingUrl ? (
                     <a href={location.bookingUrl} target="_blank" rel="noopener noreferrer" className="block">
                       <Button variant="gold" className="w-full py-5 font-bold shadow-[0_20px_40px_rgba(197,160,89,0.1)] flex items-center justify-center gap-2">
-                        Book on Official Site <ExternalLink size={15} />
+                        Get Directions <Navigation size={15} />
                       </Button>
                     </a>
                   ) : (

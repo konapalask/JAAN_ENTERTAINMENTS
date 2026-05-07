@@ -119,8 +119,8 @@ export default function Home() {
               <div className="mt-auto flex items-center gap-4">
                 <div className="h-14 w-14 rounded-full bg-white/5 border border-white/10" />
                 <div>
-                  <div className="text-xs font-bold uppercase tracking-widest text-white/60">Rahul Verma</div>
-                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Premium Member</div>
+                  <div className="text-xs font-bold uppercase tracking-widest text-white/60">Konapala Sai Kiran</div>
+                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Customer</div>
                 </div>
               </div>
             </GlassCard>
@@ -130,8 +130,8 @@ export default function Home() {
               <div className="mt-auto flex items-center gap-4">
                 <div className="h-14 w-14 rounded-full bg-white/5 border border-white/10" />
                 <div>
-                  <div className="text-xs font-bold uppercase tracking-widest text-white/60">Priya K.</div>
-                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Gold Tier Member</div>
+                  <div className="text-xs font-bold uppercase tracking-widest text-white/60">Nikhil M</div>
+                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Customer</div>
                 </div>
               </div>
             </GlassCard>
@@ -141,8 +141,8 @@ export default function Home() {
               <div className="mt-auto flex items-center gap-4">
                 <div className="h-14 w-14 rounded-full bg-accent-gold/10 border border-accent-gold/30 shadow-[0_0_20px_rgba(197,160,89,0.3)]" />
                 <div>
-                  <div className="text-xs font-bold uppercase tracking-widest text-accent-gold">Amit Reddy</div>
-                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Ambassador Visit</div>
+                  <div className="text-xs font-bold uppercase tracking-widest text-accent-gold">Khaja Shaik</div>
+                  <div className="text-[10px] opacity-20 uppercase font-bold tracking-tighter">Customer</div>
                 </div>
               </div>
             </GlassCard>

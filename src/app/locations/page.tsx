@@ -31,6 +31,7 @@ export default function LocationsPage() {
               city={loc.city}
               image={loc.image}
               description={loc.description}
+              bookingUrl={loc.bookingUrl}
               href={`/locations/${loc.slug}`}
             />
           ))}

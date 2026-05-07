@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { MapPin, ArrowRight, ExternalLink } from "lucide-react";
+import { MapPin, ArrowRight, ExternalLink, Navigation } from "lucide-react";
 import { GlassCard } from "./GlassCard";
 import { Button } from "./Button";
 import Link from "next/link";
@@ -73,9 +73,6 @@ export const LocationCard = ({ name, city, image, description, href, bookingUrl 
 
         <div className="p-10">
           <h3 className="font-outfit text-3xl font-bold tracking-tighter">{name}</h3>
-          <p className="mt-4 text-sm leading-relaxed text-white/30 font-light line-clamp-2">
-            {description}
-          </p>
           <div className="mt-10 flex items-center justify-between gap-4">
             {bookingUrl ? (
               <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
@@ -83,7 +80,7 @@ export const LocationCard = ({ name, city, image, description, href, bookingUrl 
                   variant="gold"
                   className="w-full px-7 py-3 text-[10px] font-bold flex items-center justify-center gap-2"
                 >
-                  Book Now <ExternalLink size={12} />
+                  Get Directions <Navigation size={12} />
                 </Button>
               </a>
             ) : (
