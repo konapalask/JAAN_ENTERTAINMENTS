@@ -130,37 +130,58 @@ export default function ContactPage() {
             <div className="space-y-6">
 
               {/* Contact Cards */}
-              <GlassCard className="flex items-start gap-5 border-white/5 p-8">
-                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-gold/10 flex items-center justify-center text-accent-gold">
+              <GlassCard className="flex items-start gap-5 border-white/5 p-8 hover:border-accent-gold/20 transition-all duration-500 group">
+                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-gold/10 flex items-center justify-center text-accent-gold group-hover:scale-110 transition-transform">
                   <Phone size={20} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-gold mb-2">Direct Line</p>
-                  <p className="text-sm font-light text-white/50 leading-relaxed">+91 98765 43210<br />+91 91234 56789</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-gold mb-3">Direct Line</p>
+                  <div className="space-y-1">
+                    <p className="text-sm font-light text-white/50 leading-relaxed hover:text-white transition-colors cursor-pointer">+91 98765 43210</p>
+                    <p className="text-sm font-light text-white/50 leading-relaxed hover:text-white transition-colors cursor-pointer">+91 91234 56789</p>
+                  </div>
                 </div>
               </GlassCard>
 
-              <GlassCard className="flex items-start gap-5 border-white/5 p-8">
-                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-emerald/10 flex items-center justify-center text-accent-emerald">
+              <GlassCard className="flex items-start gap-5 border-white/5 p-8 hover:border-accent-emerald/20 transition-all duration-500 group">
+                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-emerald/10 flex items-center justify-center text-accent-emerald group-hover:scale-110 transition-transform">
                   <Mail size={20} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-emerald mb-2">Email Us</p>
-                  <p className="text-sm font-light text-white/50 break-all">{ENQUIRY_EMAIL}</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-emerald mb-3">Email Us</p>
+                  <p className="text-sm font-light text-white/50 break-all hover:text-white transition-colors cursor-pointer">{ENQUIRY_EMAIL}</p>
                 </div>
               </GlassCard>
 
-              <GlassCard className="flex items-start gap-5 border-white/5 p-8">
-                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-gold/10 flex items-center justify-center text-accent-gold">
+              <GlassCard className="flex items-start gap-5 border-white/5 p-8 hover:border-accent-gold/20 transition-all duration-500 group">
+                <div className="h-12 w-12 shrink-0 rounded-2xl bg-accent-gold/10 flex items-center justify-center text-accent-gold group-hover:scale-110 transition-transform">
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-gold mb-2">Our Hubs</p>
-                  <p className="text-sm font-light text-white/50 leading-relaxed">
-                    Padmavathi Ghat, Vijayawada<br />
-                    Rajiv Gandhi Park, Vijayawada<br />
-                    E4 Eluru, Andhra Pradesh
-                  </p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-accent-gold mb-4">Our Hubs</p>
+                  <div className="space-y-6">
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">E3 Vijayawada</p>
+                      <p className="text-xs font-light text-white/30 leading-relaxed">
+                        Opp. APSRTC Bus Stand, Padmavathi Ghat, <br />
+                        Krishnalanka, Vijayawada, AP 520013
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">Rajiv Gandhi Park</p>
+                      <p className="text-xs font-light text-white/30 leading-relaxed">
+                        NH 65, Krishnalanka, <br />
+                        Vijayawada, Andhra Pradesh 520001
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">E4 Eluru</p>
+                      <p className="text-xs font-light text-white/30 leading-relaxed">
+                        Opp. New RTC Bus Stand, Ameenapet, <br />
+                        Eluru, Andhra Pradesh 534006
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </GlassCard>
 
