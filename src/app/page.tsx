@@ -27,6 +27,7 @@ export default function Home() {
               key={loc.slug} 
               {...loc} 
               href={`/locations/${loc.slug}`}
+              actionLabel="Book Now"
             />
           ))}
         </div>

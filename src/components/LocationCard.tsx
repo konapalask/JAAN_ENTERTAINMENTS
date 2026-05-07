@@ -15,9 +15,10 @@ interface LocationCardProps {
   description: string;
   href: string;
   bookingUrl?: string;
+  actionLabel?: string;
 }
 
-export const LocationCard = ({ name, city, image, description, href, bookingUrl }: LocationCardProps) => {
+export const LocationCard = ({ name, city, image, description, href, bookingUrl, actionLabel }: LocationCardProps) => {
   const hasImage = !!image;
 
   return (
@@ -80,7 +81,8 @@ export const LocationCard = ({ name, city, image, description, href, bookingUrl 
                   variant="gold"
                   className="w-full px-7 py-3 text-[10px] font-bold flex items-center justify-center gap-2"
                 >
-                  Get Directions <Navigation size={12} />
+                  {actionLabel || "Get Directions"}{" "}
+                  {actionLabel === "Book Now" ? <ExternalLink size={12} /> : <Navigation size={12} />}
                 </Button>
               </a>
             ) : (

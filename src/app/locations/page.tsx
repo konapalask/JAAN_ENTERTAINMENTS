@@ -33,6 +33,7 @@ export default function LocationsPage() {
               description={loc.description}
               bookingUrl={loc.bookingUrl}
               href={`/locations/${loc.slug}`}
+              actionLabel="Get Directions"
             />
           ))}
         </div>
